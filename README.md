@@ -21,6 +21,12 @@ Fork of [Wazuh](https://github.com/wazuh/wazuh/) with hook mechanism to interven
 
 ## Build
 
+Build dependencies
+```
+make -C src deps TARGET=server
+```
+
+Build source
 ```
 make -C src PII_ENABLED=1 TARGET=server 
 ```
